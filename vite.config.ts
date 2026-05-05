@@ -18,7 +18,7 @@ export default defineConfig({
     proxy: {
       // All /api calls forward to Node.js backend
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://retail-pos-backend.vercel.app/",
         changeOrigin: true,
       },
     },
