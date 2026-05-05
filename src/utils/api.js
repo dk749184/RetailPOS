@@ -8,7 +8,7 @@ import {
   mockCustomersAPI, mockDiscountsAPI, mockBillsAPI,
 } from "./mockApi.js";
 
-const BASE = "/api";
+const BASE = "https://retail-pos-backend.vercel.app/api";
 
 // ─── Token helpers ─────────────────────────────────────────────────────────────
 export const getToken   = ()  => localStorage.getItem("token");
